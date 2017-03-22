@@ -1,0 +1,21 @@
+<div class="top">
+    <h1>Angular2 Lorem Ipsum Generator</h1>
+    <a href="https://github.com/lukasz-galka/ngx-lorem-ipsum" target="_blank">https://github.com/lukasz-galka/ngx-lorem-ipsum</a>
+</div>
+
+<div class="line">
+    <div class="settings">
+        count: <input [(ngModel)]="count">
+        paragraphsCount: <input [(ngModel)]="paragraphsCount">
+    </div>
+    <ngx-lorem-ipsum [count]="count" [paragraphsCount]="paragraphsCount"></ngx-lorem-ipsum>
+</div>
+
+<div class="line">
+    <div class="settings">
+        min: <input [(ngModel)]="randomMin">
+        max: <input [(ngModel)]="randomMax">
+        paragraphsCount: <input [(ngModel)]="randomParagraphsCount">
+    </div>
+    <ngx-lorem-ipsum [min]="randomMin" [max]="randomMax" [paragraphsCount]="randomParagraphsCount"></ngx-lorem-ipsum>
+</div>
