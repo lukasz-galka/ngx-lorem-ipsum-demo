@@ -38,3 +38,35 @@ ngx-lorem-ipsum {
     width: 100%;
     margin-bottom: 50px;
 }
+
+.links {
+    width: 100%;
+    margin: 20px 0px;
+    text-align: center;
+
+    a:link, a:visited, a:hover, a:active {
+        text-decoration: none;
+    }
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: fill 0.3s ease-in-out;
+    fill: black;
+}
+
+.icon-npm {
+    width: 80px;
+}
+
+.icon-intive {
+    width: 10px;
+}
+
+.icon:hover {
+    fill: grey;
+}
